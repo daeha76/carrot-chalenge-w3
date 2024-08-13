@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -14,7 +13,7 @@ export default function Home() {
           href={"/create-account"}
           className="w-full bg-orange-500 text-white text-lg font-medium py-2.5 rounded-md text-center hover:bg-orange-400"
         >
-          시작하기
+          Sign In
         </Link>
         <div className="flex gap-2">
           <span>이미 계정이 있나요?</span>
