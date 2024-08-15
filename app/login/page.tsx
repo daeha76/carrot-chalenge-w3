@@ -6,15 +6,13 @@ export default function CreateAccount() {
   return (
     <div className="flex flex-col gap-10 py-8 px-6">
       <div className="flex flex-col gap-2 *:font-medium">
-        <h1 className="text-2xl">Create Account</h1>
-        <h2 className="text-xl">Fill in the forme below to join!</h2>
+        <h1 className="text-2xl">Login page</h1>
+        <h2 className="text-xl">Log in with email and password!</h2>
       </div>
       <form className="flex flex-col gap-3">
-        <FormInput type="text" placeholder="Username" required errors={[]} />
         <FormInput type="email" placeholder="Email" required errors={[]} />
         <FormInput type="password" placeholder="Password" required errors={[]} />
-        <FormInput type="password" placeholder="Confirm Password" required errors={[]} />
-        <FormButton loading={false} text="Create account" />
+        <FormButton loading={false} text="Log In" />
       </form>
       <SocialLogin />
     </div>
